@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.headers {
+    background-color: rgb(12, 157, 190);
+    padding: 20px;
+    width: 400px;
+}
+
+.logo-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navigation {
+    display: none;
+}
+
+.show {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-links-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-link {
+    list-style: none;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.nav-link a:hover {
+    color: aquamarine;
+}
+
+.nav-btn {
+    border: 0;
+    background-color: crimson;
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .headers {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hamburger-menu {
+        background-color: black;
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .logo-icon {
+        width: fit-content;
+    }
+
+
+    .nav-links-wrap {
+        gap: 20px;
+    }
+
+    .nav-link a {
+        font-size: 20px;
+    }
+
+    .nav-btn {
+        font-size: 16px;
+    }
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    /* border-radius: 30px; */
+    background-color: gold;
+}
+
+.RUN{
+    text-align: center;
+    color: darkgray;
+    text-align: center;
+}
+
+.ROUND{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px;
+    text-align: center;
+}   
+
+.rest{
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    /* padding: auto; */
+    gap: 20px;
+   
+}
+
+.land{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.veet{
+    text-align: center;
+    color: rgb(12, 157, 190);
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    padding: 20px;
+}
+
+.write-up{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: lighter;
+    padding-left: 30px;
+    margin: 20px;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    /* margin: 300px; */
+    margin: 40px;
+}
+
+.m-image{
+    height: 300px;
+    width: 300px;
+    /* border-radius: 20px; */
+    align-items: center;
+}
+
+.h8{
+    text-align: center;
+    padding: 60px;
+}
+
+.write-in{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: lighter;
+    
+    
+}
+
+@media screen AND (min-width:768px) {
+    .headers {
+    background-color: rgb(12, 157, 190);
+    padding: 20px;
+    width:100%;
+}
+
+    body{
+    height: 100vh;
+    width: 100%;
+    border-radius: 30px;
+    background-color: gold;
+}
+
+.RUN{
+    text-align: center;
+    color: rgba(10, 15, 10, 0.342);
+}
+
+.ROUND{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px;
+} 
+
+.rest{
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    /* padding: auto; */
+    gap: 20px;
+   
+}
+
+.land{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.veet{
+    text-align: center;
+    color: rgb(12, 157, 190);
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    padding: 20px;
+}
+
+.write-up{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: lighter;
+    padding-left: 30px;
+    margin: 20px;
+}
+
+.image{
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    /* margin: 300px; */
+    margin: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.m-image{
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.h8{
+    text-align: center;
+    top: 50px;
+}
+
+.write-in{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: lighter;
+    
+    
+}
+}
+
